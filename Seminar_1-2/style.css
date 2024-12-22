@@ -1,0 +1,32 @@
+﻿.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.frame {
+    border: solid 2px;
+    padding: auto;
+    background-color: antiquewhite;
+}
+.button {
+    width: 336px;
+    height: 50px;
+    margin: 20px;
+    background-color: cadetblue;
+    color: rgb(223, 227, 209);
+    font-size: 20px;
+    cursor: pointer
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: solid 2px;
+    background-color: aquamarine;
+}
