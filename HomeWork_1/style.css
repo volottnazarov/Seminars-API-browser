@@ -1,0 +1,52 @@
+﻿.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.frame {
+    border: solid 2px black;
+    text-align: center;
+    background-color:cadetblue;
+}
+
+.frame__info-schedule {
+    color:floralwhite;
+    text-shadow: 2px 2px 5px rgb(27, 40, 40);
+}
+
+.frame__lessons {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap: 10px;
+    background-color: khaki;
+    border: solid 1px black;
+}
+
+.frame__lessons-lesson {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+.lesson-name {
+    height: 30px;
+    color: whitesmoke;
+    background-color: cadetblue;
+    text-shadow: 2px 2px 5px rgb(27, 40, 40);
+    border: solid 1px black;
+}
+
+.lesson-start {
+    color: black;
+    font-weight: 200px;
+}
+
+.lesson-btn {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(177, 85, 78);
+    color: floralwhite;
+    cursor: pointer;
+}
