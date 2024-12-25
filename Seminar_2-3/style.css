@@ -1,0 +1,10 @@
+﻿.btn {
+    width: 200px;
+    height: 40px;
+    margin: 50px;
+    background-color: bisque;
+}
+
+.btn:hover {
+    background-color: burlywood;
+}

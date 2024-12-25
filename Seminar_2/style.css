@@ -1,0 +1,22 @@
+﻿body {
+    max-width: 1140px;
+}
+
+ul {
+    height: 40px;
+    margin-left: 180px;
+    margin-right: 290px;
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+    border: solid 2px black;
+    font-size: 20px;
+    background-color: bisque;
+}
+
+.active {
+    color: red;
+    font-weight: 800;
+}
+
