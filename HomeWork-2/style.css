@@ -1,0 +1,128 @@
+﻿
+img {
+    display: block;
+    max-width: 100%;
+}
+body {
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    padding: 60px;
+}
+.demo {
+    display: flex;
+    justify-content: center;
+    background-color:cadetblue;
+}
+
+.demo__image {
+    width: 514px;
+    height: 500px;
+    margin-top: 10px;
+    border: solid 2px wheat;
+    background-color: black;
+}
+.preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:cadetblue;
+}
+
+.preview__image {
+    display: flex;
+    justify-content: center;
+    background-color:cadetblue;
+}
+
+.preview__control {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.preview__control-panel {
+    width: 240px;
+    height: 53px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.btn {
+    width: 50px;
+    height: 48px;
+    margin-left: 5px;
+    background-color: burlywood;
+}
+
+.btn:hover {
+    background-color: chocolate;
+}
+
+.btn-left {
+    background-image: url(./image/кнопка-быстрая-обратная-перемотка-48.png);
+}
+.btn-left:hover {
+    background-color: black;
+}
+
+.btn-right {
+    background-image:url(./image/кнопка-быстрая-перемотка-48.png);
+}
+.btn-right:hover {
+    background-color: black;
+}
+
+.btn-back {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-next {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: solid 2px wheat;
+}
+
+.active {
+    border: solid 4px red;
+    width: 105px;
+    height: 105px;
+}
+
+.active__image-1 {
+    background-image: url(./image/Смайл\ с\ сердечком.png);
+}
+
+.active__image-2 {
+    background-image: url(./image/smile\ в\ очках.png);
+}
+
+.active__image-3 {
+    background-image: url(./image/smale\ язык.png);
+}
+
+.active__image-4 {
+    background-image: url(./image/smile\ смотрит\ вверх.png);
+}
+
+.active__image-5 {
+    background-image: url(./image/smile\ до\ слез.png);
+}
